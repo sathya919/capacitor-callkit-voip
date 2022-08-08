@@ -1,11 +1,12 @@
-package com.mycompany.plugins.example;
+package com.test.callkit;
 
 import android.util.Log;
 
-public class Callkit {
+public class CallKitVoip {
 
     public String echo(String value) {
-        Log.i("Echo", value);
+
+        Log.d("CallKitVoip","called");
         return value;
     }
 }
